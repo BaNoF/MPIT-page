@@ -1,13 +1,422 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </body>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1, maximum-scale=5"
+      />
+      <meta name="robots" content="noindex, nofollow" />
+      <title>Travel Booking Template with Tailwind CSS</title>
+      <link
+         href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+         rel="stylesheet"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/swiper@8.0.7/swiper-bundle.min.css"
+      />
+      <link href="./dist/style.css" rel="stylesheet" />
+   </head>
+   <body>
+      <div class="header">
+         <div class="container">
+            <div class="header-logo">
+               <span class="material-icons-outlined header-logo-icon">
+                  mode_of_travel </span
+               >Якт Туризм
+            </div>
+            <!-- header-logo -->
+            <div class="menu-toggle">
+               <span class="material-icons-outlined"> меню </span>
+            </div>
+            <!-- menu-toggle -->
+
+            <ul class="header-menu">
+               <div class="header-menu-copyright">Made with Tailwind CSS</div>
+            </ul>
+            <!-- header-menu -->
+         </div>
+      </div>
+      <!-- header -->
+
+      <div class="tour container">
+         <div class="tour-head">
+            <div class="tour-head-left">
+               <div class="tour-title">
+                  Путешествие по сибири
+               </div>
+               <div class="tour-overview">
+                  <div class="tour-overview-item">
+                     Начало и конец в <span>Якутск</span>
+                  </div>
+                  <div class="tour-overview-item"><span>9</span> дней</div>
+                  <div class="tour-overview-item">
+                     <span>4.7</span> (55 просмотра)
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- tour head -->
+
+         <div class="tour-wrapper">
+            <div class="tour-content">
+               <div class="tour-hero">
+                  <div class="tour-image"></div>
+               </div>
+               <!-- tour hero -->
+
+               <div class="tour-content-block">
+                  <div class="tour-description">
+                     Погрузитесь в культуру и историю этого уникального региона, исследуя величественные города и живописные природные ландшафты. Начните своё путешествие
+                      с изучения исторических памятников и музеев, а затем отправляйтесь на юг, наслаждаясь великолепием сибирской природы и древними традициями местных народов.
+                      Присоединяйтесь к нам в этом захватывающем приключении и создайте незабываемые воспоминания, открывая для себя древние чудеса и разнообразные ландшафты Сибири!
+                  </div>
+               </div>
+               <!-- block -->
+
+             
+               <!-- block -->
+
+               <div class="tour-content-block">
+                  <div class="tour-content-title mb-8">Маршрут</div>
+                  <div class="tour-itinerary">
+                     <div class="accordion">
+                        <div
+                           class="accordion-panel accordion-introduction active"
+                        >
+                           <div class="accordion-trigger">Введение</div>
+                           <div class="accordion-content">
+                              <p>
+                                 Приготовьтесь посетить Сибирь — загадочный край, где величественные горы, бескрайние тайги и кристально чистые озёра ждут вас. Откройте для себя уникальную культуру, богатую 
+                                 историю и потрясающие природные пейзажи, которые оставят незабываемые впечатления. Ваше приключение в этом удивительном регионе только начинается!
+                              </p>
+                           </div>
+                        </div>
+                        <!-- item -->
+
+                        <div class="accordion-panel accordion-start">
+                           <div class="accordion-trigger">
+                              <span>День 1:</span> Ленские столбы
+                           </div>
+                           <div class="accordion-content">
+                              <p>
+                                 Величественные скалы, которые являются частью природного парка и впечатляют своими размерами и красотой.
+                              </p>
+                           </div>
+                        </div>
+                        <!-- item -->
+
+                        <div class="accordion-panel">
+                           <div class="accordion-trigger">
+                              <span>День 2:</span> Ледник Булуус 
+                           </div>
+                           <div class="accordion-content">
+                              <p>
+                                 Уникальное природное образование, где можно увидеть ледяные образования и насладиться свежим воздухом.
+                              </p>
+                           </div>
+                        </div>
+                        <!-- item -->
+
+                        <div class="accordion-panel">
+                           <div class="accordion-trigger">
+                              <span>День 3:</span> Царство вечной мерзлоты
+                           </div>
+                           <div class="accordion-content">
+                              <p>
+                                 Уникальный природный объект, где можно увидеть вечную мерзлоту и узнать о её особенностях.
+                              </p>
+                           </div>
+                        </div>
+                        <!-- item -->
+
+                        <div class="accordion-panel">
+                           <div class="accordion-trigger">
+                              <span>День 4:</span> Парк Победы
+                           </div>
+                           <div class="accordion-content">
+                              <p>
+                                 Прекрасное место для прогулок и отдыха, где можно насладиться зелеными насаждениями и памятниками, посвященными героям войны.
+                              </p>
+                              <P>Здесь завершается наше прекрасное путешествие. Ждём вас снова!</P>
+                           </div>
+                        </div>
+                        <!-- item -->
+                     </div>
+                  </div>
+               </div>
+               <!-- block -->
+
+               <div class="tour-content-block">
+                  <div class="tour-content-title">Отзывы клиентов</div>
+                  <div class="tour-reviews">
+                     <div class="tour-reviews-feedback">
+                        <div class="tour-reviews-feedback-item">
+                           <div class="tour-reviews-feedback-content">
+                              <div class="tour-reviews-feedback-icon">
+                                 <span class="material-icons-outlined">
+                                    earbuds
+                                 </span>
+                              </div>
+                              <div class="tour-reviews-feedback-content-inner">
+                                 <div class="tour-reviews-feedback-title">
+                                    Маршрут
+                                 </div>
+                                 <div class="tour-reviews-feedback-text">
+                                    Отлично
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tour-reviews-feedback-rating">4.8</div>
+                        </div>
+
+                        <div class="tour-reviews-feedback-item">
+                           <div class="tour-reviews-feedback-content">
+                              <div class="tour-reviews-feedback-icon">
+                                 <span class="material-icons-outlined">
+                                    record_voice_over
+                                 </span>
+                              </div>
+                              <div class="tour-reviews-feedback-content-inner">
+                                 <div class="tour-reviews-feedback-title">
+                                    Гид
+                                 </div>
+                                 <div class="tour-reviews-feedback-text">
+                                    Отлично
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tour-reviews-feedback-rating">4.9</div>
+                        </div>
+
+                        <div class="tour-reviews-feedback-item">
+                           <div class="tour-reviews-feedback-content">
+                              <div class="tour-reviews-feedback-icon">
+                                 <span class="material-icons-outlined">
+                                    directions_bus
+                                 </span>
+                              </div>
+                              <div class="tour-reviews-feedback-content-inner">
+                                 <div class="tour-reviews-feedback-title">
+                                    Транспорт
+                                 </div>
+                                 <div class="tour-reviews-feedback-text">
+                                    Отлично
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tour-reviews-feedback-rating">4.9</div>
+                        </div>
+
+                        <div class="tour-reviews-feedback-item">
+                           <div class="tour-reviews-feedback-content">
+                              <div class="tour-reviews-feedback-icon">
+                                 <span class="material-icons-outlined">
+                                    
+                                 </span>
+                              </div>
+                              <div class="tour-reviews-feedback-content-inner">
+                                 <div class="tour-reviews-feedback-title">
+                                    Размещение
+                                 </div>
+                                 <div class="tour-reviews-feedback-text">
+                                    Отлично
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tour-reviews-feedback-rating">4.5</div>
+                        </div>
+
+                        <div class="tour-reviews-feedback-item">
+                           <div class="tour-reviews-feedback-content">
+                              <div class="tour-reviews-feedback-icon">
+                                 <span class="material-icons-outlined">
+                                    
+                                 </span>
+                              </div>
+                              <div class="tour-reviews-feedback-content-inner">
+                                 <div class="tour-reviews-feedback-title">
+                                    Еда
+                                 </div>
+                                 <div class="tour-reviews-feedback-text">
+                                    Отлично
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tour-reviews-feedback-rating">4.5</div>
+                        </div>
+
+                        <div class="tour-reviews-feedback-item">
+                           <div class="tour-reviews-feedback-content">
+                              <div class="tour-reviews-feedback-icon">
+                                 <span class="material-icons-outlined">
+                                    
+                                 </span>
+                              </div>
+                              <div class="tour-reviews-feedback-content-inner">
+                                 <div class="tour-reviews-feedback-title">
+                                    Тур оператор
+                                 </div>
+                                 <div class="tour-reviews-feedback-text">
+                                    Путешествие
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tour-reviews-feedback-rating">4.5</div>
+                        </div>
+                     </div>
+                     <div class="tour-reviews-overall">
+                        <div class="tour-reviews-content">
+                           <div class="tour-reviews-overall-title">
+                              Общий рейтинг
+                           </div>
+                           <div class="tour-reviews-overall-text">
+                                 Отлично
+                           </div>
+                           <div class="tour-reviews-overall-rating">4.7</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- block -->
+
+               <div class="tour-content-block">
+                  <div class="tour-help">
+                     <div class="tour-help-inner">
+                        <div class="tour-help-content">
+                           <div class="tour-help-title">Нужна помощь с бронированием?</div>
+                           <div class="tour-help-text">
+                              Нужна помощь с бронированием?
+                              Позвоните в нашу службу поддержки клиентов по указанному ниже номеру, 
+                              чтобы поговорить с одним из наших консультантов, который поможет 
+                              вам со всеми вопросами, связанными с отпуском.
+                           </div>
+                        </div>
+                        <div class="tour-help-call">
+                           <div class="tour-help-call-text">
+                              +7 999 999 99 99
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- block -->
+            </div>
+            <!-- content -->
+
+            <div class="tour-sidebar">
+               <div class="tour-receipt">
+                  <div class="tour-receipt-head">
+                     <div class="tour-amount">
+                        <span class="tour-amount-old">$119</span> $109
+                        <span>/ночь</span>
+                     </div>
+                     <div class="tour-discount">-10%</div>
+                  </div>
+                  <div class="tour-receipt-select">
+                     <div class="tour-receipt-select-top">
+                        <div class="tour-receipt-select-item">
+                           <div class="tour-receipt-select-icon">
+                              <span class="material-icons-outlined">
+                                 от
+                              </span>
+                           </div>
+                           <div class="tour-receipt-select-content">
+                              <div class="tour-receipt-select-title">
+                                 07 Мая
+                              </div>
+                              <div class="tour-receipt-select-text">
+                              
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tour-receipt-select-item">
+                           <div class="tour-receipt-select-icon">
+                              <span class="material-icons-outlined">
+                                 до
+                              </span>
+                           </div>
+                           <div class="tour-receipt-select-content">
+                              <div class="tour-receipt-select-title">
+                                 16 May
+                              </div>
+                              <div class="tour-receipt-select-text">
+                                      
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tour-receipt-select-bottom">
+                        <div class="tour-receipt-select-item">
+                           <div class="tour-receipt-select-icon">
+                           </div>
+                           <div class="tour-receipt-select-content">
+                              <div class="tour-receipt-select-title">
+                                 3 Гостя
+                              </div>
+                              <div class="tour-receipt-select-text">Гости</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tour-receipt-detail">
+                     <div class="tour-receipt-detail-item">
+                        <div class="tour-receipt-detail-title">
+                           $119 x 9 ночи
+                        </div>
+                        <div class="tour-receipt-detail-price">$1,071</div>
+                     </div>
+                     <div class="tour-receipt-detail-item">
+                        <div class="tour-receipt-detail-title">
+                           10% скидка на кампанию
+                        </div>
+                        <div class="tour-receipt-detail-price">-$175</div>
+                     </div>
+                     <div class="tour-receipt-detail-item">
+                        <div class="tour-receipt-detail-title">Плата за обслуживание</div>
+                        <div class="tour-receipt-detail-price">$0</div>
+                     </div>
+                     <div
+                        class="tour-receipt-detail-item tour-receipt-detail-total"
+                     >
+                        <div class="tour-receipt-detail-title">Итог</div>
+                        <div class="tour-receipt-detail-price">$1,246</div>
+                     </div>
+                  </div>
+                  <div class="tour-receipt-button">
+                     <button class="tour-favorite">
+                        <span class="material-icons-outlined">
+                           favorite_border
+                        </span>
+                     </button>
+                     <button class="tour-reserve">Забронируйте сейчас</button>
+                  </div>
+               </div>
+            </div>
+            <!-- sidebar -->
+         </div>
+      </div>
+      <!-- tour -->
+
+      <div class="footer">
+         <div class="container">
+            <div class="footer-inner">
+               <div class="footer-content">
+                  Простой шаблон бронирования путешествия, созданный с помощью Якт Туризм
+               </div>
+               <div class="footer-menu">
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer -->
+
+      <div class="header-menu-overlay"></div>
+      <!-- overlay -->
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8.0.7/swiper-bundle.min.js"></script>
+      <script src="./dist/app.js"></script>
+   </body>
 </html>
